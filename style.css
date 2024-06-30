@@ -1,0 +1,255 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+#header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#header img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#products {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    color: #333;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product button {
+    background-color: BLACK;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 60%;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.product button:hover {
+    background-color: BLACK;
+}
+
+#viewAllBtn {
+    background-color: white;
+    color: #333;
+    margin-top: 20px;
+    width: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+#viewAllBtn:hover {
+    background-color: black;
+    color: #f5f5f5;
+}
+
+#midBanner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#midBanner img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#luxuryCategories {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#luxuryCategories h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#lux {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.luxItem {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    width: 300px;
+    /* Fixed width for better alignment */
+}
+
+.luxItem img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+#bella {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#bella img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#videoSection {
+    width: 100%;
+    position: relative;
+}
+
+video {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#videoText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+#videoButton {
+    background-color: WHITE;
+    color: BLACK;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#checkoutModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 50px;
+}
+
+#checkoutForm {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#checkoutForm h2 {
+    text-align: center;
+    color: #333;
+}
+
+#checkoutForm label {
+    display: block;
+    margin: 10px 0;
+    color: #333;
+}
+
+#checkoutForm input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+#checkoutForm button {
+    background-color: BLACK;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#checkoutForm button:hover {
+    background-color: #333;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    #products {
+        justify-content: center;
+    }
+
+    .product {
+        width: 80%;
+    }
+
+    #viewAllBtn {
+        width: 80%;
+    }
+
+    #lux .luxItem {
+        flex: 0 0 100%;
+    }
+
+    #bella {
+        flex-direction: column;
+    }
+}
