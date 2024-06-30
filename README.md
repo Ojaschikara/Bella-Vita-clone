@@ -1,6 +1,5 @@
 # Bella-Vita-clone
-## Deployed link:-
-https://bella-vita-clone.vercel.app/
+## Deployed link:-  https://bella-vita-clone.vercel.app/
 ## Overview
 Bellavita is a full-fledged e-commerce website clone designed to offer users a seamless and delightful shopping experience. The project's primary goal is to replicate the functionalities and aesthetics of a modern online cosmetics store, catering to the diverse needs of beauty enthusiasts.
 
