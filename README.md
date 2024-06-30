@@ -38,4 +38,10 @@ Fluid Layout: The layout adapts dynamically to different screen resolutions, mai
 HTML5, CSS3 (with modern styling techniques like Flexbox and Grid), JavaScript
 
 ## IMAGES
+![Screenshot (244)](https://github.com/Ojaschikara/Bella-Vita-clone/assets/148073482/4ea21d11-4abf-46cc-90c3-19dfd37a1d2b)
+![Screenshot (245)](https://github.com/Ojaschikara/Bella-Vita-clone/assets/148073482/94a640e4-3e60-4233-b322-9ab458600194)
+![Screenshot (247)](https://github.com/Ojaschikara/Bella-Vita-clone/assets/148073482/5f8a3023-df12-4a81-af1c-6eb9c3828e41)
+![Screenshot (248)](https://github.com/Ojaschikara/Bella-Vita-clone/assets/148073482/8f851747-12d7-4275-9438-41dabc964206)
+![Screenshot (249)](https://github.com/Ojaschikara/Bella-Vita-clone/assets/148073482/584e653c-d735-4112-a2a1-6b0d3cf08a58)
+
 
