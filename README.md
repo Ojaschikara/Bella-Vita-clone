@@ -37,14 +37,4 @@ Frontend
 HTML5, CSS3 (with modern styling techniques like Flexbox and Grid), JavaScript
 
 IMAGES
-Screenshot (129)
 
-Screenshot (133)
-
-Screenshot (135)
-
-Screenshot (136)
-
-Screenshot (138)
-
-Screenshot (139)
